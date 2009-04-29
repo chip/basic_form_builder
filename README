@@ -1,0 +1,16 @@
+BasicFormBuilder
+================
+
+This plugin is a rudimentary Form Builder to clean up ugly forms.
+
+
+Example
+=======
+
+<% basic_form_for @project do |f| %> 
+  <%= f.text_field :title %> 
+<% end %> 
+
+
+
+Copyright (c) 2009 [Chip Castle Dot Com, Inc. - http://chipcastle.com], released under the MIT license
